@@ -10,6 +10,9 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 # Inherit some common WrathOS stuff.
 $(call inherit-product, vendor/wrath/config/common_full_phone.mk)
 
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := wrath_violet
 PRODUCT_DEVICE := violet
